@@ -1,17 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Néo pop-art expo</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 
 <body>
     <header>
+
+        <img src="public/img/fondation.svg" alt="fondation Cartier">
+        <button>
+            <img src="public/icones/globe.svg" alt="globe">
+            <span></span>
+        </button>
+
+<button 
+aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+        <img src="public/icones/menu.svg" alt="menu">
+        </button>
+
+
+        <nav
+        id="mainNav" x-show="menuIsOpen"
+        x-transition.duration.800ms>
+
+
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+
+        <ul>
+            <li>
+                <a href="mouvement.html"> Néo pop art</a>
+            </li>
+            <li>
+                <a href="guangyi.html">Wang Guangyi</a>
+            </li>
+            <li>
+                <a href="majerus.html">Michel Majerus</a>
+            </li>
+            <li>
+               <a href="murakami.html">Takashi Murakami</a> 
+            </li>
+            <li>
+                <a href="koons.html">Jeff Koons</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="tarif.html">Tarifs</a>
+            </li>
+        </ul>
+    
+    
+    
+    </nav>
         
+
     </header>
+
+
     
 </body>
 </html>
