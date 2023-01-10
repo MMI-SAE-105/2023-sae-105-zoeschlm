@@ -106,23 +106,25 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         </section>
     </main>
 
-    <footer>
-            <p>Fondation Cartier
-                pour l’art contemporain
-            </p>
-    
-            <h3>Contact</h3>
-    
-            <address>
-                <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-                <p>01 42 18 56 50</p>
-            </address>
-    
-            <h3> Nous suivre</h3>
-            <img src="../public/icones/instagram_1.svg">
-            <img src="../public/icones/facebook_1.svg">
-    
-        </footer>
+    <footer class="footer">
+        <p class="footer__logo">Fondation Cartier
+            pour l’art contemporain
+        </p>
+
+        <h3 class="h2">Contact</h3>
+
+        <address class="adresse">
+            <p class="base__line blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+            <p class="base__line blanc">01 42 18 56 50</p>
+        </address>
+
+        <h3 class="h2 blanc"> Nous suivre</h3>
+        <div class="footer__fin">
+            <img class="footer__icone" src="../public/icones/instagram_1.svg" alt="instagram">
+            <img class="footer__icone" src="../public/icones/facebook_1.svg" alt="facebook">
+        </div>
+
+    </footer> 
 
 
 </body>

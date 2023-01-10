@@ -88,7 +88,7 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
 
         <h2 class="h2">Les artistes de l'exposition</h2>
 
-        <section class="galerie1">
+        <div class="galerie1">
             <div class="artiste">
                 <img class="portrait__img" src="../public/img/wang_guangyi.webp" alt="Wang Guangyi">
                 <p class="tableau__titre">Wang Guangyi</p>
@@ -98,9 +98,9 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 <img class="portrait__img" src="../public/img/michel_majerus.webp" alt="Michel Majerus">
                 <p class="tableau__titre">Michel Majerus</p>
             </div>
-        </section>
+        </div>
 
-        <section class="galerie2">
+        <div class="galerie2">
             <div class="artiste">
                 <img class="portrait__img" src="../public/img/jeff_koons.webp" alt="Jeff Koons">
                 <p class="tableau__titre">Jeff Koons</p>
@@ -111,11 +111,11 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 <img class="portrait__img" src="../public/img/takashi_murakami.webp" alt="Takashi Murakami">
                 <p class="tableau__titre">Takashi Murakami</p>
             </div>
-        </section>
+        </div>
 
         <h2 class="h2">Oeuvres principales chronologiquement</h2>
 
-        <section class="frise">
+        <div class="frise">
             <img class="frise__fleche" src="../public/icones/Frise.svg" alt="flèche chronologique">
 
             <div class="frise__items">
@@ -143,27 +143,28 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                     <p class="texte">Wang Guangyi</p>
                 </div>
             </div>
-        </section>
+        </div>
 </main>
 
-        <footer>
-            <p>Fondation Cartier
-                pour l’art contemporain
-            </p>
-    
-            <h3>Contact</h3>
-    
-            <address>
-                <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-                <p>01 42 18 56 50</p>
-            </address>
-    
-            <h3> Nous suivre</h3>
-            <img src="../public/icones/instagram_1.svg">
-            <img src="../public/icones/facebook_1.svg">
-    
-        </footer>
-    
+<footer class="footer">
+    <p class="footer__logo">Fondation Cartier
+        pour l’art contemporain
+    </p>
+
+    <h3 class="h2">Contact</h3>
+
+    <address class="adresse">
+        <p class="base__line blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+        <p class="base__line blanc">01 42 18 56 50</p>
+    </address>
+
+    <h3 class="h2 blanc"> Nous suivre</h3>
+    <div class="footer__fin">
+        <img class="footer__icone" src="../public/icones/instagram_1.svg" alt="instagram">
+        <img class="footer__icone" src="../public/icones/facebook_1.svg" alt="facebook">
+    </div>
+ 
+</footer> 
 
 </body>
 </html>
