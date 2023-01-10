@@ -12,4 +12,6 @@
 .header__menuBtn {
     position: relative;
     z-index: 20;
+    background: none;
+    border: none;
 }
