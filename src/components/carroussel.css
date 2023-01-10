@@ -1,0 +1,17 @@
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carrousel_ecran {
+   width: 50px;
+}
+
+.carrousel_parent-ecrans {
+    display: flex;
+    width:10px;
+}
+
+.carrousel_ecran figure {
+    margin: auto;
+}
