@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wang Guangyi</title>
+    <title>Néo pop-art expo</title>
+    <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 
 <body>
-    <header>
+    <header class="header">
 
-        <a href="index.html">
-            <img src="../public/img/fondation.svg" alt="fondation Cartier">
-        </a>
+        <img class="header__logo1" src="../public/img/fondation.svg" alt="fondation Cartier">
         <button>
-            <img src="../public/icones/globe.svg" alt="globe">
+            <img class="header__menuBtn" src="../public/icones/globe.svg" alt="globe">
             <span></span>
         </button>
 
 <button 
+class="header__menuBtn"
 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
         <img src="../public/icones/menu.svg" alt="menu">
         </button>
@@ -31,36 +31,37 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         x-transition.duration.800ms>
 
 
-        <a href="index.html">
-            <img src="../public/img/fondation.svg" alt="fondation Cartier">
+        <a href="/index.html">
+            <img class="menu__logo" src="../public/img/fondation.svg" alt="fondation Cartier">
         </a>
 
-        <ul>
-            <li>
-                <a href="mouvement.html"> Néo pop art</a>
+        <ul style="list-style-type:none;" class="menu__list">
+            <li class="menu__item">
+                <a class=menu__link href="mouvement.html"> Néo pop art</a>
             </li>
-            <li>
-                <a href="guangyi.html">Wang Guangyi</a>
+            <li class="menu__item">
+                <a class="menu__link" href="guangyi.html">Wang Guangyi</a>
             </li>
-            <li>
-                <a href="majerus.html">Michel Majerus</a>
+            <li class="menu__item">
+                <a class="menu__link" href="majerus.html">Michel Majerus</a>
             </li>
-            <li>
-               <a href="murakami.html">Takashi Murakami</a> 
+            <li class="menu__item">
+               <a class="menu__link" href="murakami.html">Takashi Murakami</a> 
             </li>
-            <li>
-                <a href="koons.html">Jeff Koons</a>
+            <li class="menu__item">
+                <a class="menu__link" href="koons.html">Jeff Koons</a>
             </li>
-            <li>
-                <a href="contact.html">Contact</a>
+            <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
             </li>
-            <li>
-                <a href="tarif.html">Tarifs</a>
+            <li class="menu__item">
+                <a class="menu__link" href="tarif.html">Tarifs</a>
             </li>
         </ul>
     
     </nav>
     </header>
+    
 
     <main>
         <div>

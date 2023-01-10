@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balloon dog</title>
+    <title>Néo pop-art expo</title>
+    <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 
 <body>
-    <header>
+    <header class="header">
 
-        <a href="index.html">
-            <img src="../public/img/fondation.svg" alt="fondation Cartier">
-        </a>
+        <img class="header__logo1" src="../public/img/fondation.svg" alt="fondation Cartier">
         <button>
-            <img src="../public/icones/globe.svg" alt="globe">
+            <img class="header__menuBtn" src="../public/icones/globe.svg" alt="globe">
             <span></span>
         </button>
 
 <button 
+class="header__menuBtn"
 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
         <img src="../public/icones/menu.svg" alt="menu">
         </button>
@@ -31,31 +31,31 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         x-transition.duration.800ms>
 
 
-        <a href="index.html">
-            <img src="../public/img/fondation.svg" alt="fondation Cartier">
+        <a href="/index.html">
+            <img class="menu__logo" src="../public/img/fondation.svg" alt="fondation Cartier">
         </a>
 
-        <ul>
-            <li>
-                <a href="mouvement.html"> Néo pop art</a>
+        <ul style="list-style-type:none;" class="menu__list">
+            <li class="menu__item">
+                <a class=menu__link href="mouvement.html"> Néo pop art</a>
             </li>
-            <li>
-                <a href="guangyi.html">Wang Guangyi</a>
+            <li class="menu__item">
+                <a class="menu__link" href="guangyi.html">Wang Guangyi</a>
             </li>
-            <li>
-                <a href="majerus.html">Michel Majerus</a>
+            <li class="menu__item">
+                <a class="menu__link" href="majerus.html">Michel Majerus</a>
             </li>
-            <li>
-               <a href="murakami.html">Takashi Murakami</a> 
+            <li class="menu__item">
+               <a class="menu__link" href="murakami.html">Takashi Murakami</a> 
             </li>
-            <li>
-                <a href="koons.html">Jeff Koons</a>
+            <li class="menu__item">
+                <a class="menu__link" href="koons.html">Jeff Koons</a>
             </li>
-            <li>
-                <a href="contact.html">Contact</a>
+            <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
             </li>
-            <li>
-                <a href="tarif.html">Tarifs</a>
+            <li class="menu__item">
+                <a class="menu__link" href="tarif.html">Tarifs</a>
             </li>
         </ul>
     
@@ -63,20 +63,20 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     </header>
     
     <main>
-        <div>
-            <h3>Une oeuvre</h3>
+        <div class="page">
+            <h3 class="btn__texte blanc" >Une oeuvre</h3>
         </div>
 
-        <h1>Balloon dog</h1>
+        <h1 class="h1">Balloon dog</h1>
 
-        <div>
-            <img src="../public/img/ballon.webp" alt="Balloon dog">
-            <p>Balloon dog</p>
-            <p>Sculpture</p>
-            <h2>Jeff Koons</h2>
+        <div class="article">
+            <img class="article__oeuvre" src="../public/img/ballon.webp" alt="Balloon dog">
+            <p class="article__nom">Balloon dog</p>
+            <p class="article__tech">Sculpture</p>
+            <h2 class="article__artiste">Jeff Koons</h2>
         </div>
 
-        <p>Balloon Dogs est une sculpture monumentale de l'artiste américain Jeff Koons représentant un chien sculpté à partir d'un ballon. Il existe différentes versions de cette sculpture en acier inoxydable. Réalisées entre 1994 et 2000, elles présentent chacune une couleur différente : bleu, magenta, jaune, orange et rouge.
+        <p class="texte">Balloon Dogs est une sculpture monumentale de l'artiste américain Jeff Koons représentant un chien sculpté à partir d'un ballon. Il existe différentes versions de cette sculpture en acier inoxydable. Réalisées entre 1994 et 2000, elles présentent chacune une couleur différente : bleu, magenta, jaune, orange et rouge.
             Cette sculpture a obtenu le record de la sculpture la plus coûteuse.
             En effet, le 13 novembre 2013, Balloon Dog s'est vendue 58,4 millions $, chez Christie's, à New York.
             
@@ -87,50 +87,52 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 
         </p>
 
-        <h2>Autres oeuvres</h2>
+        <h2 class="h2">Autres oeuvres</h2>
 
-        <section>
-            <div>
-                <img src="../public/img/ballon.webp" alt="Balloon Dog">
-                <p>Balloon Dog</p>
+        <section class="oeuvres">
+            <div class="tableau">
+                <img class="tableau__img" src="../public/img/ballon.webp" alt="Balloon Dog">
+                <p class="tableau__titre">Balloon Dog</p>
 
-                <div>
-                    <a href="balloondog.html">Plus
-                        <img src="../public/icones/arrow.svg" alt="flèche">
+                <div class="plus">
+                    <a class="plus__texte" href="balloondog.html">Plus
+                        <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
                     </a>
                 </div>
             </div>
 
-            <div>
-                <img src="../public/img/puppy.webp" alt="Puppy">
-                <p>Puppy</p>
+            <div class="tableau">
+                <img class=tableau__img src="../public/img/puppy.webp" alt="Puppy">
+                <p class="tableau__titre">Puppy</p>
 
-                <div>
-                    <a href="puppy.html">Plus
-                        <img src="../public/icones/arrow.svg" alt="flèche">
+                <div class="plus">
+                    <a class="plus__texte" href="puppy.html">Plus
+                        <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
                     </a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>Fondation Cartier
+    <footer class="footer">
+        <p class="footer__logo">Fondation Cartier
             pour l’art contemporain
         </p>
 
-        <h3>Contact</h3>
+        <h3 class="h2">Contact</h3>
 
-        <address>
-            <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-            <p>01 42 18 56 50</p>
+        <address class="adresse">
+            <p class="base__line blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+            <p class="base__line blanc">01 42 18 56 50</p>
         </address>
 
-        <h3> Nous suivre</h3>
-        <img src="../public/icones/instagram_1.svg">
-        <img src="../public/icones/facebook_1.svg">
+        <h3 class="h2 blanc"> Nous suivre</h3>
+        <div class="footer__fin">
+            <img class="footer__icone" src="../public/icones/instagram_1.svg">
+            <img class="footer__icone" src="../public/icones/facebook_1.svg">
+        </div>
 
-    </footer>
+    </footer> 
 
 
 </body>

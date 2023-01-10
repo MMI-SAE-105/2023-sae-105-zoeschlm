@@ -13,16 +13,16 @@
 <body>
     <header class="header">
 
-        <img class="header__logo1" src="public/img/fondation.svg" alt="fondation Cartier">
+        <img class="header__logo1" src="../public/img/fondation.svg" alt="fondation Cartier">
         <button>
-            <img class="header__menuBtn" src="public/icones/globe.svg" alt="globe">
+            <img class="header__menuBtn" src="../public/icones/globe.svg" alt="globe">
             <span></span>
         </button>
 
 <button 
 class="header__menuBtn"
 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
-        <img src="public/icones/menu.svg" alt="menu">
+        <img src="../public/icones/menu.svg" alt="menu">
         </button>
 
 
@@ -31,31 +31,31 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         x-transition.duration.800ms>
 
 
-        <a href="index.html">
-            <img class="menu__logo" src="public/img/fondation.svg" alt="fondation Cartier">
+        <a href="/index.html">
+            <img class="menu__logo" src="../public/img/fondation.svg" alt="fondation Cartier">
         </a>
 
         <ul style="list-style-type:none;" class="menu__list">
             <li class="menu__item">
                 <a class=menu__link href="/fr/mouvement.html"> Néo pop art</a>
             </li>
-            <li>
-                <a href="/fr/guangyi.html">Wang Guangyi</a>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/guangyi.html">Wang Guangyi</a>
             </li>
-            <li>
-                <a href="/fr/majerus.html">Michel Majerus</a>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/majerus.html">Michel Majerus</a>
             </li>
-            <li>
-               <a href="/fr/murakami.html">Takashi Murakami</a> 
+            <li class="menu__item">
+               <a class="menu__link" href="/fr/murakami.html">Takashi Murakami</a> 
             </li>
-            <li>
-                <a href="/fr/koons.html">Jeff Koons</a>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/koons.html">Jeff Koons</a>
             </li>
-            <li>
-                <a href="/fr/contact.html">Contact</a>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/contact.html">Contact</a>
             </li>
-            <li>
-                <a href="/fr/tarif.html">Tarifs</a>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/tarif.html">Tarifs</a>
             </li>
         </ul>
     
@@ -63,22 +63,22 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     </header>
 
     <main>
-        <section>
-            <div>
-                <h4>13 avr - 23 juin 2023</h4>
-                <h3>Exposition</h3>
+        <section class="expo">
+            <div class="date">
+                <h4 class="date__chiffre">13 avr - 23 juin 2023</h4>
+                <h3 class="exposition">Exposition</h3>
             </div>
-            <div>
-                <h2>Wang Guangyi
+            <div class="artistes">
+                <h2 class="artistes__nom">Wang Guangyi
                     Jeff Koons
                     Michel Majerus
                     Takashi Murakami
                 </h2>
             </div>
-            <h1>Neo pop expo</h1>
+            <h1 class="expo__titre">Neo pop expo</h1>
         </section>
 
-        <h2>Le mouvement Néo pop art arrive à la Fondation Cartier.</h2>
+        <h2 class="h2">Le mouvement Néo pop art arrive à la Fondation Cartier.</h2>
 
 <!--carroussel-->
 
@@ -125,33 +125,35 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
 <!--carroussel fin-->
         
 
-<button>
+<button class="bouton">
     <a href="/">
-        <p>Billetterie</p>
-        <img src="public/icones/shopping.svg" alt="shopping">
+        <p class="btn__texte">Billetterie</p>
+        <img class="btn__icone" src="../public/icones/shopping.svg" alt="shopping">
     </a>
 </button>
 
-<p>Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h.</p>
-<p>Début de la fermeture des salles à 19h45 (21h45 les mardis).</p>
+<p class="btn__texte">Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h.</p>
+<p class="btn__texte">Début de la fermeture des salles à 19h45 (21h45 les mardis).</p>
 
     </main>
 
-    <footer>
-        <p>Fondation Cartier
+    <footer class="footer">
+        <p class="footer__logo">Fondation Cartier
             pour l’art contemporain
         </p>
 
-        <h3>Contact</h3>
+        <h3 class="h2">Contact</h3>
 
-        <address>
-            <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-            <p>01 42 18 56 50</p>
+        <address class="adresse">
+            <p class="base__line blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+            <p class="base__line blanc">01 42 18 56 50</p>
         </address>
 
-        <h3> Nous suivre</h3>
-        <img src="public/icones/instagram_1.svg">
-        <img src="public/icones/facebook_1.svg">
+        <h3 class="h2 blanc"> Nous suivre</h3>
+        <div class="footer__fin">
+            <img class="footer__icone" src="../public/icones/instagram_1.svg">
+            <img class="footer__icone" src="../public/icones/facebook_1.svg">
+        </div>
 
     </footer> 
 </body>
