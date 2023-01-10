@@ -1,0 +1,75 @@
+.expo {
+    background: #CAF944;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 20%;
+}
+
+.date {
+    line-height: 20%;
+}
+
+.date__chiffre {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.exposition {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.artistes {
+    padding-top: 3%;
+    line-height: 170%;
+}
+
+.artistes__nom {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    color:#4046E2;
+    text-align: right;
+}
+
+.expo__titre {
+    font-family:'Oswald', sans-serif ;
+    font-size: 80px;
+    line-height: 7%;
+    text-transform: uppercase;
+}
+
+.titre__expo {
+    padding-top: 20%;
+}
+
+.h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.bouton {
+    background: #CAF944;
+    border-radius: 1cm;
+    padding: 5%;
+    justify-content: center;
+    
+}
+
+.btn__texte {
+    font-family:'Oswald', sans-serif ;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+

@@ -1,2 +1,7 @@
 @import url('components/menu.css');
 @import url('components/carroussel.css');
+@import url('base/main.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@100;500&family=Oswald:wght@200;400;500&family=Playfair+Display:wght@400;600&display=swap');
+@import url('layout/index.css');
+@import url('components/text.css');

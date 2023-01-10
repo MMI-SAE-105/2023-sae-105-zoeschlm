@@ -10,17 +10,17 @@
 </head>
 
 
-<body>
+<body class="body">
     <header class="header">
 
-        <img class="header__logo1" src="../public/img/fondation.svg" alt="fondation Cartier">
+        <img class="header__logo1" src="public/img/fondation.webp" alt="fondation Cartier">
         <button class="header__menuBtn">
             <img  src="../public/icones/globe.svg" alt="globe">
             <span></span>
         </button>
 
 <button 
-class="header__menuBtn"
+class="header__menuBtn1"
 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
         <img src="../public/icones/menu.svg" alt="menu">
         </button>
@@ -31,32 +31,35 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         x-transition.duration.800ms>
 
 
-        <a href="/index.html">
-            <img class="menu__logo" src="../public/img/fondation.svg" alt="fondation Cartier">
-        </a>
+        
 
         <ul style="list-style-type:none;" class="menu__list">
-            <li class="menu__item">
-                <a class=menu__link href="/fr/mouvement.html"> Néo pop art</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="/fr/guangyi.html">Wang Guangyi</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="/fr/majerus.html">Michel Majerus</a>
-            </li>
-            <li class="menu__item">
-               <a class="menu__link" href="/fr/murakami.html">Takashi Murakami</a> 
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="/fr/koons.html">Jeff Koons</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="/fr/contact.html">Contact</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="/fr/tarif.html">Tarifs</a>
-            </li>
+            <div class="menu1">
+                <li class="menu__item">
+                    <a class=menu__link href="/fr/mouvement.html"> Néo pop art</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/guangyi.html">Wang Guangyi</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/majerus.html">Michel Majerus</a>
+                </li>
+                <li class="menu__item">
+                   <a class="menu__link" href="/fr/murakami.html">Takashi Murakami</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/koons.html">Jeff Koons</a>
+                </li>
+            </div>
+
+            <div class="menu2">
+                <li class="menu__item1">
+                    <a class="menu__link1" href="/fr/contact.html">Contact</a>
+                </li>
+                <li class="menu__item1">
+                    <a class="menu__link1" href="/fr/tarif.html">Tarifs</a>
+                </li>
+            </div>
         </ul>
     
     </nav>
@@ -69,13 +72,16 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 <h3 class="exposition">Exposition</h3>
             </div>
             <div class="artistes">
-                <h2 class="artistes__nom">Wang Guangyi
-                    Jeff Koons
-                    Michel Majerus
-                    Takashi Murakami
-                </h2>
+                <h2 class="artistes__nom">Wang Guangyi </h2>
+                  <h2 class="artistes__nom"> Jeff Koons</h2>
+                    <h2 class="artistes__nom"> Michel Majerus</h2>
+                    <h2 class=artistes__nom>Takashi Murakami</h2>
+                
             </div>
-            <h1 class="expo__titre">Neo pop expo</h1>
+            <div class="titre__expo">
+                <h1 class="expo__titre">Neo </h1>
+                <h1 class="expo__titre">pop-expo</h1>
+            </div>
         </section>
 
         <h2 class="h2">Le mouvement Néo pop art arrive à la Fondation Cartier.</h2>
@@ -126,7 +132,7 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         
 
 <button class="bouton">
-   Billetterie
+   <a class="btn__texte" href="/">Billetterie</a>
         <img class="btn__icone" src="../public/icones/shopping.svg" alt="shopping">
     
 </button>
