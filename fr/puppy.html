@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Ball</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body>
+    <header>
+
+        <a href="index.html">
+            <img src="../public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+        <button>
+            <img src="../public/icones/globe.svg" alt="globe">
+            <span></span>
+        </button>
+
+<button 
+aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+        <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+
+
+        <nav class="menu"
+        id="mainNav" x-show="menuIsOpen"
+        x-transition.duration.800ms>
+
+
+        <a href="index.html">
+            <img src="../public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+
+        <ul>
+            <li>
+                <a href="mouvement.html"> Néo pop art</a>
+            </li>
+            <li>
+                <a href="guangyi.html">Wang Guangyi</a>
+            </li>
+            <li>
+                <a href="majerus.html">Michel Majerus</a>
+            </li>
+            <li>
+               <a href="murakami.html">Takashi Murakami</a> 
+            </li>
+            <li>
+                <a href="koons.html">Jeff Koons</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="tarif.html">Tarifs</a>
+            </li>
+        </ul>
+    
+    </nav>
+    </header>
+    
+    <main>
+        <div>
+            <h3>Une oeuvre</h3>
+        </div>
+
+        <h1>Flower ball</h1>
+
+        <div>
+            <img src="../public/img/flower-ball.webp" alt="Flower ball">
+            <p>Flower ball</p>
+            <p>Acrylique sur toile</p>
+            <h2>Takashi Murakami</h2>
+        </div>
+
+        <p>L'œuvre de l'artiste Takashi Murakami Flowerball est une sérigraphie en édition limitée de 300 pièces signées et numérotées. Elle a été réalisée en 2016 et mesure 71x71 cm.
+            C'est une version du sujet récurrent de Takashi Murakami Flower, symbole d'harmonie et de bonheur. Placées côte à côte dans une composition colorée, les fleurs souriantes créent l'illusion d'une sphère.
+            Tout comme Andy Warhol, la culture de masse est un élément fondamental du style de Takashi Murakami : des œuvres comme Mr. DOB, Flower et le cycle Arhat mêlent des références anime et manga à l'univers du Pop Art. Takashi Murakami est ainsi devenu l'un des artistes japonais les plus appréciés et son style iconique Superflat est aujourd'hui un point de référence pour de nombreux artistes.
+            Avec cette fleur iconique, Takashi Murakami utilise des formes ludiques qui peuvent être adaptées à plusieurs autres œuvres, ce qui en fait l'une de ses marques de fabrique et signature reconnaissable.
+            
+        </p>
+
+        <h2>Autres oeuvres</h2>
+
+        <section>
+            <div>
+                <img src="../public/img/chaos.webp" alt="Chaos">
+                <p>Chaos</p>
+
+                <div>
+                    <a href="chaos.html">Plus
+                        <img src="../public/icones/arrow.svg" alt="flèche">
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <img src="../public/img/flower-ball.webp" alt="Flower ball">
+                <p>Flower Ball</p>
+
+                <div>
+                    <a href="flowerball.html">Plus
+                        <img src="../public/icones/arrow.svg" alt="flèche">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fondation Cartier
+            pour l’art contemporain
+        </p>
+
+        <h3>Contact</h3>
+
+        <address>
+            <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+            <p>01 42 18 56 50</p>
+        </address>
+
+        <h3> Nous suivre</h3>
+        <img src="../public/icones/instagram_1.svg">
+        <img src="../public/icones/facebook_1.svg">
+
+    </footer>
+
+
+</body>
+</html>
