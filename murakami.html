@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takashi Murakami</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body>
+    <header>
+
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+        <button>
+            <img src="public/icones/globe.svg" alt="globe">
+            <span></span>
+        </button>
+
+<button 
+aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+        <img src="public/icones/menu.svg" alt="menu">
+        </button>
+
+
+        <nav class="menu"
+        id="mainNav" x-show="menuIsOpen"
+        x-transition.duration.800ms>
+
+
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+
+        <ul>
+            <li>
+                <a href="mouvement.html"> Néo pop art</a>
+            </li>
+            <li>
+                <a href="guangyi.html">Wang Guangyi</a>
+            </li>
+            <li>
+                <a href="majerus.html">Michel Majerus</a>
+            </li>
+            <li>
+               <a href="murakami.html">Takashi Murakami</a> 
+            </li>
+            <li>
+                <a href="koons.html">Jeff Koons</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="tarif.html">Tarifs</a>
+            </li>
+        </ul>
+    
+    </nav>
+    </header>
+
+    <main>
+        <div>
+            <h3>Un artiste</h3>
+        </div>
+
+        <blockquote>Michel Majerus, né le 9 juin 1967 à Esch-sur-Alzette et mort le 6 novembre 2002 à Niederanven, est un artiste germano-luxembourgeois.
+        </blockquote>
+        <h1>Michel Majerus</h1>
+
+        <div>
+            <img src="public/img/michel_majerus.webp" alt="Michel Majerus">
+            <p>Neo</p>
+            <p>Pop - expo</p>
+        </div>
+
+        <div>
+            <p>Élève de Joseph Kosuth à l’Académie des Beaux-Arts de Stuttgart, sa carrière est très brève car il est une des vingt victimes de l'accident du vol Luxair 9642 survenu le 6 novembre 2002.
+
+                Malgré sa courte carrière, Majerus s’est forgé une réputation internationale grâce à ces peintures de grands formats puisant dans l’iconographie colorée de la publicité, de la bande dessinée, des arts numériques ou encore dans le vocabulaire du Pop Art et de la peinture gestuelle abstraite. Cette œuvre, faussement impulsive, cache ici un geste réfléchi et prémédité. Plutôt qu’une peinture abstraite, Majerus offre ironiquement au visiteur l’image d’une peinture abstraite, dont la spontanéité est mise en scène.
+                
+            </p>
+        </div>
+
+        <h2>Les oeuvres</h2>
+        <section>
+            <div>
+                <img src="public/img/itscool.webp" alt="It's cool man">
+                <p>It's cool Man</p>
+
+                <div>
+                    <a href="itscoolman.html">Plus
+                        <img src="public/icones/arrow.svg" alt="flèche">
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <img src="public/img/violet.webp" alt="Violet">
+                <p>Violet</p>
+
+                <div>
+                    <a href="violet.html">Plus
+                        <img src="public/icones/arrow.svg" alt="flèche">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Fondation Cartier
+            pour l’art contemporain
+        </p>
+
+        <h3>Contact</h3>
+
+        <address>
+            <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+            <p>01 42 18 56 50</p>
+        </address>
+
+        <h3> Nous suivre</h3>
+        <img src="public/icones/instagram_1.svg">
+        <img src="public/icones/facebook_1.svg">
+
+    </footer>
+    
+
+</body>
+</html>
