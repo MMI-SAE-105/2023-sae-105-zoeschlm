@@ -44,3 +44,9 @@
     padding: 5%;
 }
 
+.tableau__titre {
+    font-family:'Playfair Display', serif ;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
