@@ -14,3 +14,20 @@
     color: aliceblue;
     text-decoration: underline;
 }
+
+.h2__footer {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 5%;
+    padding-top: 2%;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.footer__end {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.footer__fin {
+    padding-left: 35%;
+}
