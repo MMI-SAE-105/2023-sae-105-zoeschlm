@@ -64,17 +64,19 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     
 
     <main>
-        <div>
-            <h3>Le mouvement</h3>
+        <div class="page">
+            <h3 class="btn__texte">Le mouvement</h3>
         </div>
 
-        <blockquote>Utilisant les méthodes pop-art des années 1960 et s'inspirant des travaux de Roy Lichtenstein ou Andy Warhol, le Néo pop-art apparaît sur la scène artistique new-yorkaise à la fin des années 1980.</blockquote>
+        <blockquote class="base__line">Utilisant les méthodes pop-art des années 1960 et s'inspirant des travaux de Roy Lichtenstein ou Andy Warhol, le Néo pop-art apparaît sur la scène artistique new-yorkaise à la fin des années 1980.</blockquote>
 
-        <h1>NEO POP-ART</h1>
-        <h3>On vous en parle.</h3>
+        <div class="titre">
+            <h1 class="h1">NEO POP-ART</h1>
+            <h3 class="baseline">On vous en parle.</h3>
+        </div>
 
-        <div>
-            <p>Plus proche du peuple que le Pop art, à l'image de la Figuration Libre, le Néo pop réfute l'idée qu'un Art est supérieur aux autres et vise à démontrer que la culture populaire, la société de consommation et l'Art sont au même étage et peuvent cohabiter dans une même image. Ils prônent au contraire un art proche du peuple et de ses acheteurs. On le rapproche souvent de la nouvelle illustration, en général moins revendicative.
+        <img class="rectangle" src="../public/img/rectangle.webp">
+            <p class="text_dessus">Plus proche du peuple que le Pop art, à l'image de la Figuration Libre, le Néo pop réfute l'idée qu'un Art est supérieur aux autres et vise à démontrer que la culture populaire, la société de consommation et l'Art sont au même étage et peuvent cohabiter dans une même image. Ils prônent au contraire un art proche du peuple et de ses acheteurs. On le rapproche souvent de la nouvelle illustration, en général moins revendicative.
 
                 Nos artistes savent mettre l'accent sur le contraste de couleurs à la fois vives et douces pour créer une certaine ambiance.
                 Selon Jean-Luc Chalumeau, « les Nouveaux Pop sont fidèles à cet état d’esprit, et se révèlent comme une génération d’artistes tous doués d’impeccables moyens techniques et pratiquant de subtils décalages dans leurs manières respectives d’interroger le réel. Sans complexe vis-à-vis des ombres tutélaires de Warhol ou Liechtenstein, sachant leur inoculer des doses diverses de Figuration Narrative ou de Mangas, ils sont avant tout des peintres de leur temps »1.
@@ -82,63 +84,63 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 Le néo-pop art s’appuie fortement sur les médias de masse à la fois pour son influence et son inspiration mais aussi pour promouvoir son travail. Les tenants du Pop art des années 1960 contestent parfois cet héritage.
                 
             </p>
-        </div>
+        
 
-        <h2>Les artistes de l'exposition</h2>
+        <h2 class="h2">Les artistes de l'exposition</h2>
 
-        <section>
-            <div>
-                <img src="../public/img/wang_guangyi.webp" alt="Wang Guangyi">
-                <p>Wang Guangyi</p>
+        <section class="galerie1">
+            <div class="artiste">
+                <img class="portrait__img" src="../public/img/wang_guangyi.webp" alt="Wang Guangyi">
+                <p class="tableau__titre">Wang Guangyi</p>
             </div>
 
-            <div>
-                <img src="../public/img/michel_majerus.webp" alt="Michel Majerus">
-                <p>Michel Majerus</p>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <img src="../public/img/jeff_koons.webp" alt="Jeff Koons">
-                <p>Jeff Koons</p>
-            </div>
-
-
-            <div>
-                <img src="../public/img/takashi_murakami.webp" alt="Takashi Murakami">
-                <p>Takashi Murakami</p>
+            <div class="artiste">
+                <img class="portrait__img" src="../public/img/michel_majerus.webp" alt="Michel Majerus">
+                <p class="tableau__titre">Michel Majerus</p>
             </div>
         </section>
 
-        <h2>Oeuvres principales chronologiquement</h2>
+        <section class="galerie2">
+            <div class="artiste">
+                <img class="portrait__img" src="../public/img/jeff_koons.webp" alt="Jeff Koons">
+                <p class="tableau__titre">Jeff Koons</p>
+            </div>
 
-        <section>
-            <img src="../public/icones/Frise.svg" alt="flèche chronologique">
 
-            <div>
-                <div>
-                    <p>1992</p>
-                    <p>Puppy</p>
-                    <p>Jeff Koons</p>
+            <div class="artiste">
+                <img class="portrait__img" src="../public/img/takashi_murakami.webp" alt="Takashi Murakami">
+                <p class="tableau__titre">Takashi Murakami</p>
+            </div>
+        </section>
+
+        <h2 class="h2">Oeuvres principales chronologiquement</h2>
+
+        <section class="frise">
+            <img class="frise__fleche" src="../public/icones/Frise.svg" alt="flèche chronologique">
+
+            <div class="frise__items">
+                <div class="frise__date">
+                    <p class="text">1992</p>
+                    <p class="text">Puppy</p>
+                    <p class="texte">Jeff Koons</p>
                 </div>
 
-                <div>
-                    <p>1998</p>
-                    <p>It's cool man</p>
-                    <p>Michel Majerus</p>
+                <div class="frise__date">
+                    <p class="texte">1998</p>
+                    <p class="texte">It's cool man</p>
+                    <p class="texte">Michel Majerus</p>
                 </div>
 
-                <div>
-                    <p>1999</p>
-                    <p>Chaos</p>
-                    <p>Takashi Murakami</p>
+                <div class="frise__date">
+                    <p class="texte">1999</p>
+                    <p class="texte">Chaos</p>
+                    <p class="texte">Takashi Murakami</p>
                 </div>
 
-                <div>
-                    <p>2002</p>
-                    <p>The Belief II</p>
-                    <p>Wang Guangyi</p>
+                <div class="frise__date">
+                    <p class="texte">2002</p>
+                    <p class="texte">The Belief II</p>
+                    <p class="texte">Wang Guangyi</p>
                 </div>
             </div>
         </section>
