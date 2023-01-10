@@ -64,52 +64,54 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     
 
     <main>
-        <h1>Contact</h1>
+        <h1 class="h1">Contact</h1>
 
-        <div>
-            <ul>
-                <li>
-                    <img src="../public/icones/home.svg" alt="maison"> 
-                    <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+        <div class="contact">
+            <ul class="contact__liste">
+                <li class="contact__item">
+                    <img class="contact__icone" src="../public/icones/home.svg" alt="maison"> 
+                    <p class="texte">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
                 </li>
     
-                <li>
-                    <img src="../public/icones/mail.svg" alt="mail">
-                    <p >info.reservation@fondation.cartier.com </p>
+                <li class="contact__item">
+                    <img class="contact__icone" src="../public/icones/mail.svg" alt="mail">
+                    <p class="texte">info.reservation@fondation.cartier.com </p>
                 </li>
     
-                <li >
-                    <img src="../public/icones/phone.svg" alt="téléphone"> 
-                    <p >01 42 18 56 50</p>
+                <li class="contact__item">
+                    <img class="contact__icone" src="../public/icones/phone.svg" alt="téléphone"> 
+                    <p class="texte">01 42 18 56 50</p>
                 </li>
             </ul>
         </div>
 
-        <h2>Vous avez une question ?</h2>
+        <h2 class="h2">Vous avez une question ?</h2>
 
-        <form action="#" method="get">
-            <div>
-                <label for="nom">Nom</label>
-                <input id="nom" type="text">
+        <form class="formulaire"
+         action="#" method="get">
+            <div class="case">
+                <label class="case__item" for="nom">Nom</label>
+                <input class="case__ecrire" id="nom" type="text">
             </div>
 
-            <div>
-                <label for="prenom">Prénom</label>
-                <input id="prenom" type="text">
+            <div class="case">
+                <label class="case__item" for="prenom">Prénom</label>
+                <input class="case__ecrire" id="prenom" type="text">
             </div>
 
-            <div>
-            <label for="mail">Mail</label>
-            <input id="mail" type="text">
+            <div class="case">
+            <label class="case__item" for="mail">Mail</label>
+            <input class="case__ecrire" id="mail" type="text">
             </div>
 
-            <div>
-                <label for="message">Question</label>
-                <textarea id="message"></textarea>
+            <div class="case">
+                <label class="case__item" for="message">Question</label>
+                <textarea class="case__texte" id="message"></textarea>
             </div>
 
-            <section>
-                <button type="submit">
+            <section class="bouton">
+                <button class="btn__texte"
+                type="submit">
                     Envoyer
                 </button>
             </section>
