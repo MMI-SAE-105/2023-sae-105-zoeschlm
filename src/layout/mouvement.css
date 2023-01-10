@@ -12,7 +12,7 @@
     z-index: 10;
     text-align: right;
     right: 0;
-    padding-right: 5%;
+    padding-right: 2%;
     padding-top: 10%;
 
 }
@@ -27,6 +27,8 @@
    
 }
 
-.text__dessus {
-    background: ;
+.text__over {
+    background:#CAF944;
+    padding: 8%;
+    padding-left: 10%;
 }
