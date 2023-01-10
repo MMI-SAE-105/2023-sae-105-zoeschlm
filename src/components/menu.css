@@ -6,4 +6,10 @@
     height: 100vh;
     display: grid;
     z-index: 10;
+    background: #CAF944;
+}
+
+.header__menuBtn {
+    position: relative;
+    z-index: 20;
 }
