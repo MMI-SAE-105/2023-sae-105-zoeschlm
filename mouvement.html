@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Néo Pop Art</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<body>
+    <header>
+
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+        <button>
+            <img src="public/icones/globe.svg" alt="globe">
+            <span></span>
+        </button>
+
+<button 
+aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+        <img src="public/icones/menu.svg" alt="menu">
+        </button>
+
+
+        <nav class="menu"
+        id="mainNav" x-show="menuIsOpen"
+        x-transition.duration.800ms>
+
+
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
+
+        <ul>
+            <li>
+                <a href="mouvement.html"> Néo pop art</a>
+            </li>
+            <li>
+                <a href="guangyi.html">Wang Guangyi</a>
+            </li>
+            <li>
+                <a href="majerus.html">Michel Majerus</a>
+            </li>
+            <li>
+               <a href="murakami.html">Takashi Murakami</a> 
+            </li>
+            <li>
+                <a href="koons.html">Jeff Koons</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="tarif.html">Tarifs</a>
+            </li>
+        </ul>
+    
+    </nav>
+    </header>
+
+    <main>
+        <div>
+            <h3>Le mouvement</h3>
+        </div>
+
+        <blockquote>Utilisant les méthodes pop-art des années 1960 et s'inspirant des travaux de Roy Lichtenstein ou Andy Warhol, le Néo pop-art apparaît sur la scène artistique new-yorkaise à la fin des années 1980.</blockquote>
+
+        <h1>NEO POP-ART</h1>
+        <h3>On vous en parle.</h3>
+
+        <div>
+            <p>Plus proche du peuple que le Pop art, à l'image de la Figuration Libre, le Néo pop réfute l'idée qu'un Art est supérieur aux autres et vise à démontrer que la culture populaire, la société de consommation et l'Art sont au même étage et peuvent cohabiter dans une même image. Ils prônent au contraire un art proche du peuple et de ses acheteurs. On le rapproche souvent de la nouvelle illustration, en général moins revendicative.
+
+                Nos artistes savent mettre l'accent sur le contraste de couleurs à la fois vives et douces pour créer une certaine ambiance.
+                Selon Jean-Luc Chalumeau, « les Nouveaux Pop sont fidèles à cet état d’esprit, et se révèlent comme une génération d’artistes tous doués d’impeccables moyens techniques et pratiquant de subtils décalages dans leurs manières respectives d’interroger le réel. Sans complexe vis-à-vis des ombres tutélaires de Warhol ou Liechtenstein, sachant leur inoculer des doses diverses de Figuration Narrative ou de Mangas, ils sont avant tout des peintres de leur temps »1.
+                
+                Le néo-pop art s’appuie fortement sur les médias de masse à la fois pour son influence et son inspiration mais aussi pour promouvoir son travail. Les tenants du Pop art des années 1960 contestent parfois cet héritage.
+                
+            </p>
+        </div>
+
+        <h2>Les artistes de l'exposition</h2>
+
+        <section>
+            <div>
+                <img src="public/img/wang_guangyi.webp" alt="Wang Guangyi">
+                <p>Wang Guangyi</p>
+            </div>
+
+            <div>
+                <img src="public/img/michel_majerus.webp" alt="Michel Majerus">
+                <p>Michel Majerus</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="public/img/jeff_koons.webp" alt="Jeff Koons">
+                <p>Jeff Koons</p>
+            </div>
+
+
+            <div>
+                <img src="public/img/takashi_murakami.webp" alt="Takashi Murakami">
+                <p>Takashi Murakami</p>
+            </div>
+        </section>
+
+        <h2>Oeuvres principales chronologiquement</h2>
+
+        <section>
+            <img src="public/icones/Frise.svg" alt="flèche chronologique">
+
+            <div>
+                <div>
+                    <p>1992</p>
+                    <p>Puppy</p>
+                    <p>Jeff Koons</p>
+                </div>
+
+                <div>
+                    <p>1998</p>
+                    <p>It's cool man</p>
+                    <p>Michel Majerus</p>
+                </div>
+
+                <div>
+                    <p>1999</p>
+                    <p>Chaos</p>
+                    <p>Takashi Murakami</p>
+                </div>
+
+                <div>
+                    <p>2002</p>
+                    <p>The Belief II</p>
+                    <p>Wang Guangyi</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Fondation Cartier
+                pour l’art contemporain
+            </p>
+    
+            <h3>Contact</h3>
+    
+            <address>
+                <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                <p>01 42 18 56 50</p>
+            </address>
+    
+            <h3> Nous suivre</h3>
+            <img src="public/icones/instagram_1.svg">
+            <img src="public/icones/facebook_1.svg">
+    
+        </footer>
+    </main>
