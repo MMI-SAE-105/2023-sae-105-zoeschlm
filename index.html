@@ -11,11 +11,11 @@
 
 
 <body>
-    <header>
+    <header class="header">
 
-        <img src="public/img/fondation.svg" alt="fondation Cartier">
+        <img class="header__logo1" src="public/img/fondation.svg" alt="fondation Cartier">
         <button>
-            <img src="public/icones/globe.svg" alt="globe">
+            <img class="header__menuBtn" src="public/icones/globe.svg" alt="globe">
             <span></span>
         </button>
 
@@ -32,12 +32,12 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
 
 
         <a href="index.html">
-            <img src="public/img/fondation.svg" alt="fondation Cartier">
+            <img class="menu__logo" src="public/img/fondation.svg" alt="fondation Cartier">
         </a>
 
-        <ul>
-            <li>
-                <a href="/fr/mouvement.html"> Néo pop art</a>
+        <ul style="list-style-type:none;" class="menu__list">
+            <li class="menu__item">
+                <a class=menu__link href="/fr/mouvement.html"> Néo pop art</a>
             </li>
             <li>
                 <a href="/fr/guangyi.html">Wang Guangyi</a>
