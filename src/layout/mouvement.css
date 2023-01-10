@@ -6,3 +6,27 @@
     margin-top: 15%;
 }
 
+.titre {
+    line-height: 40%;
+    position: absolute;
+    z-index: 10;
+    text-align: right;
+    right: 0;
+    padding-right: 5%;
+    padding-top: 10%;
+
+}
+
+.rectangle {
+    padding-top: 30%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    position:relative;
+   
+}
+
+.text__dessus {
+    background: ;
+}
