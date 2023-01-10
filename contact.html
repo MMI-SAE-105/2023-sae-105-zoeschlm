@@ -12,7 +12,9 @@
 <body>
     <header>
 
-        <img src="public/img/fondation.svg" alt="fondation Cartier">
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
         <button>
             <img src="public/icones/globe.svg" alt="globe">
             <span></span>
@@ -61,57 +63,58 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     </header>
 
     <main>
-        <section>
+        <h1>Contact</h1>
+
+        <div>
+            <ul>
+                <li>
+                    <img src="public/icones/home.svg" alt="maison"> 
+                    <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                </li>
+    
+                <li>
+                    <img src="public/icones/mail.svg" alt="mail">
+                    <p >info.reservation@fondation.cartier.com </p>
+                </li>
+    
+                <li >
+                    <img src="public/icones/phone.svg" alt="téléphone"> 
+                    <p >01 42 18 56 50</p>
+                </li>
+            </ul>
+        </div>
+
+        <h2>Vous avez une question ?</h2>
+
+        <form action="#" method="get">
             <div>
-                <h4>13 avr - 23 juin 2023</h4>
-                <h3>Exposition</h3>
+                <label for="nom">Nom</label>
+                <input id="nom" type="text">
             </div>
+
             <div>
-                <h2>Wang Guangyi
-                    Jeff Koons
-                    Michel Majerus
-                    Takashi Murakami
-                </h2>
+                <label for="prenom">Prénom</label>
+                <input id="prenom" type="text">
             </div>
-            <h1>Neo pop expo</h1>
-        </section>
 
-        <h2>Le mouvement Néo pop art arrive à la Fondation Cartier.</h2>
+            <div>
+            <label for="mail">Mail</label>
+            <input id="mail" type="text">
+            </div>
 
+            <div>
+                <label for="message">Question</label>
+                <textarea id="message"></textarea>
+            </div>
 
-        /*carroussel*/
-
-<button>
-    <a href="/">
-        <p>Billetterie</p>
-        <img src="public/icones/shopping.svg" alt="shopping">
-    </a>
-</button>
-
-<p>Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h.</p>
-<p>Début de la fermeture des salles à 19h45 (21h45 les mardis).</p>
-
+            <section>
+                <button type="submit">
+                    Envoyer
+                </button>
+            </section>
+        </form>
+    
     </main>
-
-    <footer>
-        <p>Fondation Cartier
-            pour l’art contemporain
-        </p>
-
-        <h3>Contact</h3>
-
-        <address>
-            <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-            <p>01 42 18 56 50</p>
-        </address>
-
-        <h3> Nous suivre</h3>
-        <img src="public/icones/instagram_1.svg">
-        <img src="public/icones/facebook_1.svg">
-
-    </footer>
-
-
     
 </body>
 </html>
