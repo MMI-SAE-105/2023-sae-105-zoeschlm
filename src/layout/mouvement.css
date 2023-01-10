@@ -50,3 +50,12 @@
     height:251px;
 }
 
+.frise {
+ display: flex;
+ padding-top: 15%;
+ padding-bottom: 15%;
+}
+
+.frise__fleche {
+padding-left: 25%;
+}
