@@ -1,3 +1,16 @@
 .footer {
     background: #4046E2;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+
+.footer__logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
 }

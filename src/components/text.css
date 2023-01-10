@@ -4,6 +4,10 @@
     padding-top: 2%;
 }
 
+.h2--footer {
+    color: aliceblue;
+}
+
 .h1 {
    font-family:'Playfair Display', serif;
    font-size: 60px; 
