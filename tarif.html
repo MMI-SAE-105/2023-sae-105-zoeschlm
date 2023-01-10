@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Néo pop-art expo</title>
+    <title>Tarifs</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
@@ -12,7 +12,9 @@
 <body>
     <header>
 
-        <img src="public/img/fondation.svg" alt="fondation Cartier">
+        <a href="index.html">
+            <img src="public/img/fondation.svg" alt="fondation Cartier">
+        </a>
         <button>
             <img src="public/icones/globe.svg" alt="globe">
             <span></span>
@@ -61,36 +63,37 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     </header>
 
     <main>
-        <section>
-            <div>
-                <h4>13 avr - 23 juin 2023</h4>
-                <h3>Exposition</h3>
-            </div>
-            <div>
-                <h2>Wang Guangyi
-                    Jeff Koons
-                    Michel Majerus
-                    Takashi Murakami
-                </h2>
-            </div>
-            <h1>Neo pop expo</h1>
-        </section>
+        <h1>Tarifs</h1>
 
-        <h2>Le mouvement Néo pop art arrive à la Fondation Cartier.</h2>
+        <div> 
+            <p>Plein tarif</p>
+            <p>11€</p>
+        </div>
 
+        <div>
+            <p>Tarif réduit</p>
+            <p>7.50€</p>
+        </div>
 
-        /*carroussel*/
+        <div>
+            <p>13 - 25 ans</p>
+            <p>5€</p>
+        </div>
 
-<button>
-    <a href="/">
-        <p>Billetterie</p>
-        <img src="public/icones/shopping.svg" alt="shopping">
-    </a>
-</button>
+        <div>
+            <p>Pass annuel</p>
+            <p>18 - 50€</p>
+        </div>
 
-<p>Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h.</p>
-<p>Début de la fermeture des salles à 19h45 (21h45 les mardis).</p>
+        <div>
+            <p>Gratuit</p>
+            <p>Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants.</p>
+        </div>
 
+        <button>
+            <p>Billetterie</p>
+            <img src="public/icones/shopping.svg" alt="billetterie">
+        </button>
     </main>
 
     <footer>
@@ -109,6 +112,7 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
         <img src="public/icones/instagram_1.svg">
         <img src="public/icones/facebook_1.svg">
 
-    </footer> 
+    </footer>
+
 </body>
 </html>
