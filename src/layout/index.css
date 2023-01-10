@@ -50,18 +50,24 @@
     padding-top: 20%;
 }
 
-.h2 {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    padding-top: 2%;
-}
+
 
 .bouton {
     background: #CAF944;
-    border-radius: 1cm;
-    padding: 5%;
     justify-content: center;
-    
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 10px 50px;
+    flex-direction: column;
+    margin-top: 24%;
+    margin-left: 26%;
+
 }
 
 .btn__texte {
@@ -71,5 +77,11 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+    padding: 5%;
+}
+
+.btn__texte--blanc {
+    color: #FFFFFF;
 }
 
