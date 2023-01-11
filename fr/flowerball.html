@@ -67,7 +67,7 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
     
     <main>
         <div class="page">
-            <h3 class="btn__texte blanc">Une oeuvre</h3>
+            <h3 class="btn__texte-blanc">Une oeuvre</h3>
         </div>
 
         <h1 class="h1">Flower ball</h1>
@@ -76,15 +76,18 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
             <img class="article__oeuvre" src="../public/img/flower-ball.webp" alt="Flower ball">
             <p class="article__nom">Flower ball</p>
             <p class="article__tech">Acrylique sur toile</p>
-            <h2 class="article__artiste">Takashi Murakami</h2>
+            <a href="murakami.html">
+                <h2 class="article__artiste">Takashi Murakami</h2>
+            </a>
         </div>
 
-        <p class="texte">L'œuvre de l'artiste Takashi Murakami Flowerball est une sérigraphie en édition limitée de 300 pièces signées et numérotées. Elle a été réalisée en 2016 et mesure 71x71 cm.
-            C'est une version du sujet récurrent de Takashi Murakami Flower, symbole d'harmonie et de bonheur. Placées côte à côte dans une composition colorée, les fleurs souriantes créent l'illusion d'une sphère.
-            Tout comme Andy Warhol, la culture de masse est un élément fondamental du style de Takashi Murakami : des œuvres comme Mr. DOB, Flower et le cycle Arhat mêlent des références anime et manga à l'univers du Pop Art. Takashi Murakami est ainsi devenu l'un des artistes japonais les plus appréciés et son style iconique Superflat est aujourd'hui un point de référence pour de nombreux artistes.
-            Avec cette fleur iconique, Takashi Murakami utilise des formes ludiques qui peuvent être adaptées à plusieurs autres œuvres, ce qui en fait l'une de ses marques de fabrique et signature reconnaissable.
+        <div class="texte__oeuvre">
+            <p class="texte">L'œuvre de l'artiste Takashi Murakami Flowerball est une sérigraphie en édition limitée de 300 pièces signées et numérotées. Elle a été réalisée en 2016 et mesure 71x71 cm.
+                C'est une version du sujet récurrent de Takashi Murakami Flower, symbole d'harmonie et de bonheur.
+                Avec cette fleur iconique, Takashi Murakami utilise des formes ludiques qui peuvent être adaptées à plusieurs autres œuvres, ce qui en fait l'une de ses marques de fabrique et signature reconnaissable.
             
-        </p>
+            </p>
+        </div>
 
         <h2 class="h2">Autres oeuvres</h2>
 
@@ -100,7 +103,7 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 </div>
             </div>
 
-            <div class="oeuvres">
+            <div class="tableau">
                 <img class="tableau__img" src="../public/img/flower-ball.webp" alt="Flower ball">
                 <p class="tableau__titre">Flower Ball</p>
 

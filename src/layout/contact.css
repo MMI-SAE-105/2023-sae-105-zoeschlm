@@ -1,0 +1,65 @@
+.contact {}
+
+.contact__liste {
+    padding: 10%;
+    line-height: 150%;
+}
+
+.contact__item {
+    display: flex;
+    padding-top: 5%;
+}
+
+.contact__icone {
+    padding:5%;
+}
+
+.formulaire {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.case {
+    padding-bottom: 20%;
+    display:grid;
+}
+
+.case__item {
+    background:#4046E2 ;
+    padding:3%;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+    color: azure;
+    margin-right: 50%;
+}
+
+.case__ecrire {
+    border-color: #4046E2;
+    border-width: 10px;
+    padding: 5%;
+}
+
+.case__texte {
+    border-color: #4046E2;
+    border-width: 10px;
+    padding: 10%;
+}
+
+.btn__texte1 {
+    font-family:'Oswald', sans-serif ;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 5%;
+    background-color: #CAF944;
+    border: none;
+    border-radius: 60px;
+    padding:10%;
+    margin-left: 31%;
+    margin-bottom: 15%;
+}
+
