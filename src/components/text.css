@@ -13,8 +13,19 @@
    text-align: right;
    padding-right: 5%;
    text-transform: uppercase;
-   
+
 }
+
+.h1__j {
+    font-family:'Playfair Display', serif;
+    font-size: 60px; 
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5%;
+    text-transform: uppercase;
+    line-height: 60%;
+    
+ }
 
 .h1-1{
     font-family:'Playfair Display', serif;
