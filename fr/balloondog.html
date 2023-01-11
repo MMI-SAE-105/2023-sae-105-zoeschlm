@@ -21,19 +21,17 @@
             <span></span>
         </button>
 
-<button 
-class="header__menuBtn1"
-aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
-        <img src="../public/icones/menu.svg" alt="menu">
+        <button 
+        class="header__menuBtn1"
+        aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+                <img src="../public/icones/menu.svg" alt="menu">
         </button>
 
 
         <nav class="menu"
         id="mainNav" x-show="menuIsOpen"
         x-transition.duration.800ms>
-
-
-        
+   
 
         <ul style="list-style-type:none;" class="menu__list">
             <div class="menu1">
@@ -92,36 +90,34 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
                 « J’ai toujours aimé les animaux en ballon parce qu’ils sont comme nous. Nous sommes des ballons. Vous respirez et vous inspirez, c’est un optimisme. Vous expirez, et c’est une sorte de symbole de la mort. »
             
                 En repoussant la frontière entre art et divertissement, Jeff Koons a fait de ses Balloon Dogs l’expression vivante d’une époque !
-            
-            
             </p>
         </div>
 
         <h2 class="h2">Autres oeuvres</h2>
 
-        <section class="oeuvres">
-            <div class="tableau">
-                <img class="tableau__img" src="../public/img/ballon.webp" alt="Balloon Dog">
-                <p class="tableau__titre">Balloon Dog</p>
+            <section class="oeuvres">
+                <div class="tableau">
+                    <img class="tableau__img" src="../public/img/ballon.webp" alt="Balloon Dog">
+                    <p class="tableau__titre">Balloon Dog</p>
 
-                <div class="plus">
-                    <a class="plus__texte" href="balloondog.html">Plus
-                        <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
-                    </a>
+                    <div class="plus">
+                        <a class="plus__texte" href="balloondog.html">Plus
+                            <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="tableau">
-                <img class=tableau__img src="../public/img/puppy.webp" alt="Puppy">
-                <p class="tableau__titre">Puppy</p>
+                <div class="tableau">
+                    <img class=tableau__img src="../public/img/puppy.webp" alt="Puppy">
+                    <p class="tableau__titre">Puppy</p>
 
-                <div class="plus">
-                    <a class="plus__texte" href="puppy.html">Plus
-                        <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
-                    </a>
+                    <div class="plus">
+                        <a class="plus__texte" href="puppy.html">Plus
+                            <img class="plus__img" src="../public/icones/arrow.svg" alt="flèche">
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
     </main>
 
     <footer class="footer">
@@ -131,22 +127,21 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
 
         <div class="footer__end">
             <h3 class="h2__footer">Contact</h3>
-            <address class="adresse">
-                <p class="base__line-blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
-                <p class="base__line-blanc">01 42 18 56 50</p>
-            </address>
+                <address class="adresse">
+                    <p class="base__line-blanc">Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                    <p class="base__line-blanc">01 42 18 56 50</p>
+                </address>
         </div>
 
         <h3 class="h2__footer"> Nous suivre</h3>
-        <div class="footer__fin">
-            <a href="https://www.instagram.com/fondationcartier/?hl=fr">
-                <img class="footer__icone" src="../public/icones/instagram_1.svg" alt="instagram">
-            </a>
-            <a href="https://www.facebook.com/FondationCartier/?locale=fr_FR">
-                <img class="footer__icone" src="../public/icones/facebook_1.svg" alt="facebook">
-            </a>
-        </div>
-
+            <div class="footer__fin">
+                <a href="https://www.instagram.com/fondationcartier/?hl=fr">
+                    <img class="footer__icone" src="../public/icones/instagram_1.svg" alt="instagram">
+                </a>
+                <a href="https://www.facebook.com/FondationCartier/?locale=fr_FR">
+                    <img class="footer__icone" src="../public/icones/facebook_1.svg" alt="facebook">
+                </a>
+            </div>
     </footer> 
 
 
