@@ -1,0 +1,15 @@
+.article {
+    background: #CAF944;
+    padding:5%;
+    
+}
+
+.article__oeuvre {
+    max-width: 100%;
+    width:340px;
+    height: 370px;
+}
+
+.article__nom {
+    font-family: 'Playfair Display', serif;;
+}
