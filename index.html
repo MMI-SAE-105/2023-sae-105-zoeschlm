@@ -140,6 +140,23 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
 <p class="btn__texte">Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h.</p>
 <p class="btn__texte">Début de la fermeture des salles à 19h45 (21h45 les mardis).</p>
 
+
+<section
+        class="autre"
+         x-data="{open:false}">
+
+            <button
+            class=""
+            @click="open = !open"> 
+
+                <p class="autre__expo">Autres expositions de la fondation</p>
+
+            </button>
+
+            <p class="texte" x-show="open">
+                </p>
+        </section>
+
     </main>
 
     <footer class="footer">
