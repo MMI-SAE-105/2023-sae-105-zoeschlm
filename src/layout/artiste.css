@@ -1,0 +1,53 @@
+.portrait {
+    display: flex;
+    padding-left: 7%;
+}
+
+.neopop {
+    line-height: 100%;
+}
+
+.paragraphe {
+    background:#CAF944 ;
+    padding:8%;
+    padding-left: 10%;
+    margin-top: 15%;
+}
+
+.oeuvres {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    padding-top: 11%;
+
+}
+
+.tableau__img {
+    max-width: 100%;
+    width:169px;
+    min-height: 169px;
+}
+
+.plus {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+
+
+}
+
+.plus__texte {
+    background: #CAF944;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 27px;
+    font-family:'Oswald', sans-serif ;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;  
+}
