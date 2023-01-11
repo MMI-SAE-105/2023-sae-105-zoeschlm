@@ -1,6 +1,7 @@
 .article {
     background: #CAF944;
     padding:5%;
+    line-height: 50%;
     
 }
 
@@ -11,5 +12,34 @@
 }
 
 .article__nom {
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+.article__tech {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.article__artiste {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    color:black;
+    text-align: center; 
+    padding-top: 10%;
+}
+
+
+.texte__oeuvre {
+    padding:5%;
+    padding: 10%;
 }
