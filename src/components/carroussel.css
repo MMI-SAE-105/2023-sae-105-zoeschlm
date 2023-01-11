@@ -1,11 +1,14 @@
 .carrousel__1 {
     box-sizing:border-box;
     width: 100%;
+    margin-top: 30%;
+    padding: 5%;
+    background: #4046E2;
   }
 
  .carrousel {
   width: 100%;
-  border: #ffffff;
+  border: #4046E2;
  } 
   img{
     max-width:100%;
@@ -42,14 +45,13 @@
     position: absolute;
     top: 50%; 
     transform: translateY(-50%); /
-    width: 2rem;
-    height: 2rem;
-    background: rgba(0,0,0,0.5);
-    border-radius: 50%;
+    background: #FFFFFF;
+    border-radius: 200px;
+    padding:1%;
     border: none;
     display: grid;
     place-content: center;
-    color: #fff;
+    
   }
 
   .carrousel_btn-avant {
