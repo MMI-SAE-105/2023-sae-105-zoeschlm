@@ -146,15 +146,16 @@ aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen &&
          x-data="{open:false}">
 
             <button
-            class=""
+            class="bouton"
             @click="open = !open"> 
 
-                <p class="autre__expo">Autres expositions de la fondation</p>
-
+                <p class="btn__texte">Autre exposition de la fondation Cartier</p>
+                <img src="public/icones/chevron-down.svg" alt="flèche en bas">
             </button>
 
-            <p class="texte" x-show="open">
-                </p>
+            <a href="https://www.fondationcartier.com/expositions" class="h1" x-show="open">
+                    Fabrice Hyber : La Vallée
+            </a>
         </section>
 
     </main>
