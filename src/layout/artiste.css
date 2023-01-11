@@ -4,7 +4,8 @@
 }
 
 .neopop {
-    line-height: 100%;
+    display:contents;
+    padding:1%;
 }
 
 .paragraphe {
@@ -19,6 +20,7 @@
     justify-content: space-between;
     padding: 3%;
     padding-top: 11%;
+    padding-bottom: 20%;
 
 }
 
