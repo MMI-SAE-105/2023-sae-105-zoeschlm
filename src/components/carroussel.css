@@ -10,6 +10,7 @@
   width: 100%;
   border: #4046E2;
  } 
+
   img{
     max-width:100%;
     height:auto;
@@ -44,14 +45,14 @@
   .carrousel_btn {
     position: absolute;
     top: 50%; 
-    transform: translateY(-50%); /
+    transform: translateY(-50%); 
     background: #FFFFFF;
     border-radius: 200px;
     padding:1%;
     border: none;
     display: grid;
     place-content: center;
-    
+ 
   }
 
   .carrousel_btn-avant {
